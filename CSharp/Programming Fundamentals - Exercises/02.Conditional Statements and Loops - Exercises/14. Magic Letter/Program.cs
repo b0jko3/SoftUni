@@ -27,14 +27,14 @@ namespace _14.Magic_Letter
                             {
                                 if (k != skipLetter)
                                 {
-                                    result += $"{(char)i}{(char)j}{(char)k} ";
+                                    result = $"{(char)i}{(char)j}{(char)k} ";
+                                    Console.Write(result);
                                 }
                             }
                         }
                     }
                 }
             }
-            Console.WriteLine(result);
         }
     }
 }
