@@ -10,39 +10,27 @@ namespace _09.Count_the_Integers
     {
         static void Main(string[] args)
         {
+            int counter = 0;
 
-            //66/100
-            //string input = console.readline();
-            //int counter = 0;
-
-            //if (input == "" || input == null)
-            //{
-            //    console.writeline(counter);
-            //    return;
-            //}
-            //else
-            //{
-            //    counter++;
-
-            //    while (input.all(char.isdigit))
-            //    {
-            //        input = console.readline();
-
-            //        if (input == "" || input == null)
-            //        {
-            //            console.writeline(counter);
-            //            return;
-            //        }
-            //        else
-            //        {
-            //            if (input.all(char.isdigit))
-            //            {
-            //                counter++;
-            //            }
-            //        }
-            //    }
-            //}
-            //console.writeline(counter);
+            while (true)
+            {
+                string input = Console.ReadLine();
+                
+                if(input == null)
+                {
+                    Console.WriteLine(counter - 1);
+                    return;
+                }
+                if (input == "" || !input.Any(char.IsDigit))
+                {
+                    Console.WriteLine(counter);
+                    return;
+                }
+                else
+                {
+                    counter++;
+                }
+            }
         }
     }
 }
