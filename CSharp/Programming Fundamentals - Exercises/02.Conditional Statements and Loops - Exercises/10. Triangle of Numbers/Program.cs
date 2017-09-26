@@ -12,15 +12,21 @@ namespace _10.Triangle_of_Numbers
         {
             int number = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= number; i++)
+            if (number > 0)
             {
-                Console.Write(i);
-
-                for (int j = 0; j < i - 1; j++)
+                Console.WriteLine(1);
+                for (int i = 2; i <= number; i++)
                 {
-                    Console.WriteLine(i);
+                    Console.Write(i + " ");
+
+                    for (int j = 0; j < i - 1; j++)
+                    {
+                        Console.Write(i + " ");
+                    }
+                    Console.WriteLine();
                 }
             }
+
         }
     }
 }
