@@ -16,22 +16,19 @@ namespace _19.Thea_The_Photographer
             decimal secondsToUpload = decimal.Parse(Console.ReadLine());
             decimal goodPictures = numberOfPictures - (numberOfPictures - numberOfPictures * percentageGoodPictures / 100);
             decimal seconds = (numberOfPictures * secondsToFilter) + (Math.Ceiling(goodPictures) * secondsToUpload);
-            decimal minutes = 0;
-            decimal hours = 0;
-            decimal days = 0;
+            decimal minutes = seconds / 60;
+            decimal hours = minutes / 60;
+            decimal days = hours / 24;
 
-            while(seconds > 59)
+            while (seconds > 59)
             {
                 seconds -= 60;
-                minutes++;
                 if (minutes > 59)
                 {
                     minutes -= 60;
-                    hours++;
                     if (hours > 23)
                     {
                         hours -= 24;
-                        days++;
                     }
                 }
             }

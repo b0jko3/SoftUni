@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Fast Prime Checker", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Comparing floats", "16. Comparing floats\16. Comparing floats.csproj", "{6C75444B-6717-421F-BE95-3055EB8EEF09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Print Part Of ASCII Table", "17. Print Part Of ASCII Table\17. Print Part Of ASCII Table.csproj", "{9BB7403F-45A9-4683-A410-85D8A022B7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Different Integers Size", "18. Different Integers Size\18. Different Integers Size.csproj", "{855FD735-D165-4FE2-B3CA-CC6CCF428FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{6C75444B-6717-421F-BE95-3055EB8EEF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C75444B-6717-421F-BE95-3055EB8EEF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C75444B-6717-421F-BE95-3055EB8EEF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB7403F-45A9-4683-A410-85D8A022B7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB7403F-45A9-4683-A410-85D8A022B7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB7403F-45A9-4683-A410-85D8A022B7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB7403F-45A9-4683-A410-85D8A022B7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855FD735-D165-4FE2-B3CA-CC6CCF428FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855FD735-D165-4FE2-B3CA-CC6CCF428FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855FD735-D165-4FE2-B3CA-CC6CCF428FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855FD735-D165-4FE2-B3CA-CC6CCF428FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
