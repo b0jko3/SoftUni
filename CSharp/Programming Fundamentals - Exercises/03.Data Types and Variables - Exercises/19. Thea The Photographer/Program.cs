@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace _19.Thea_The_Photographer
 {
@@ -16,23 +17,10 @@ namespace _19.Thea_The_Photographer
             decimal secondsToUpload = decimal.Parse(Console.ReadLine());
             decimal goodPictures = numberOfPictures - (numberOfPictures - numberOfPictures * percentageGoodPictures / 100);
             decimal seconds = (numberOfPictures * secondsToFilter) + (Math.Ceiling(goodPictures) * secondsToUpload);
-            decimal minutes = seconds / 60;
-            decimal hours = minutes / 60;
-            decimal days = hours / 24;
 
-            while (seconds > 59)
-            {
-                seconds -= 60;
-                if (minutes > 59)
-                {
-                    minutes -= 60;
-                    if (hours > 23)
-                    {
-                        hours -= 24;
-                    }
-                }
-            }
-            Console.WriteLine($"{(int)days}:{(int)hours:d2}:{(int)minutes:d2}:{(int)seconds:d2}");
+            TimeSpan timeSpan = TimeSpan.FromSeconds((long)seconds);
+
+            Console.WriteLine("{0:d\\:hh\\:mm\\:ss}",timeSpan);
         }
     }
 }
