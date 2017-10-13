@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
 
 namespace _03.English_Name_of_Last_Digit
 {
@@ -34,7 +29,7 @@ namespace _03.English_Name_of_Last_Digit
             return result;
         }
 
-        static void Main(string[] args)
+        static void Main()
         {
             string number = Console.ReadLine();
 
