@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Count Working Days", "01. Count Working Days\01. Count Working Days.csproj", "{DB235E07-E17B-4636-B49C-B122D7DEEAE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB235E07-E17B-4636-B49C-B122D7DEEAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB235E07-E17B-4636-B49C-B122D7DEEAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB235E07-E17B-4636-B49C-B122D7DEEAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB235E07-E17B-4636-B49C-B122D7DEEAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548F92D2-B611-4641-BC5F-BC094C95D797}
+	EndGlobalSection
+EndGlobal
