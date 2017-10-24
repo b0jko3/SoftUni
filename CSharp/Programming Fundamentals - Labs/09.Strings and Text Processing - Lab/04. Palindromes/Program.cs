@@ -15,7 +15,7 @@ namespace _04.Palindromes
                 .ToArray();
             char[] charArray;
             string[] reversedText = new string[text.Length];
-            string[] result = new string[text.Length];
+            string[] palindromes = new string[text.Length];
 
             for (int i = 0; i < text.Length; i++)
             {
@@ -23,14 +23,18 @@ namespace _04.Palindromes
                 Array.Reverse(charArray);
                 reversedText[i] = new string(charArray);
 
-                if (reversedText[i] == text[i])
+                if (reversedText[i] == text[i] && text[i] != "")
                 {
-                    result[i] = text[i];
+                    palindromes[i] = text[i];
                 }
             }
-            Array.Sort(result, StringComparer.InvariantCulture);
-            result = result.Where(x => !string.IsNullOrEmpty(x)).ToArray();
-            Console.WriteLine(String.Join(", ", result));
+            HashSet<string> set = new HashSet<string>(palindromes);
+            palindromes = new string[set.Count];
+            set.CopyTo(palindromes);
+
+            Array.Sort(palindromes, StringComparer.InvariantCulture);
+            palindromes = palindromes.Where(x => !string.IsNullOrEmpty(x)).ToArray();
+            Console.WriteLine(String.Join(", ", palindromes));
         }
     }
 }
