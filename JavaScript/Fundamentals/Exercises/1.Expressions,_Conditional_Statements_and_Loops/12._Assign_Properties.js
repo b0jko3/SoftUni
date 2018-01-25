@@ -1,13 +1,6 @@
-function assignProperties(propertyAndValue) {
-    let result = '{ '
-    for (let i = 0; i < propertyAndValue.length; i += 2) {
-        result += `${propertyAndValue[i]}: '${propertyAndValue[i + 1]}'`
-        if (i < propertyAndValue.length) {
-            result += ', '
-        }
-    }
-    result += ' }'
-    console.log(result)
+function assignProperties(data) {
+    let obj = { [data[0]]: data[1], [data[2]]: data[3], [data[4]]: data[5] }
+    console.log(obj)
 }
 
 assignProperties(['name', 'Pesho', 'age', '23', 'gender', 'male'])
