@@ -1,7 +1,7 @@
 function surveyParser(data) {
     let svgRegex = /<svg>[\s\S]*<\/svg>/g
-    let validRegex = /<svg>[\s\S]*<cat>[\s\]*<\/cat>[\s\S]*<cat>[\s\S]*<\/cat>[\s\S]*<\/svg>/g
-    let valueRegex = /<val>([0-9]+)<\/val>([0-9]+)/g
+    let validRegex = /<svg>([\s]*<cat>[\s\S]*<\/cat>){2}[\s]*<\/svg>/g
+    let valueRegex = /<g><val>([0-9]+)<\/val>([0-9]+)<\/g>/g
     let labelRegex = /\[[\s\S]+\]/g
     
     if (data.match(svgRegex)) {
