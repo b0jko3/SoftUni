@@ -1,3 +1,3 @@
-function extract() {
+function extract(elementID) {
     //to do
 }
