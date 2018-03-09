@@ -29,17 +29,11 @@ function balloons() {
         get text() {
             return this._text
         }
-
-        toString(){
-            return `${this.color}, ${this.gasWeight}, ${this._ribbon.color}, ${this._ribbon.length}, ${this._text}`
-        }
     }
 
     return {
-        Balloon: Balloon,
-        PartyBalloon: PartyBalloon,
-        BirthdayBalloon: BirthdayBalloon
+        Balloon,
+        PartyBalloon,
+        BirthdayBalloon
     }
 }
-
-console.log(balloons())
