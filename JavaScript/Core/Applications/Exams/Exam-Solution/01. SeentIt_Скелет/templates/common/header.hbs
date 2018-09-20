@@ -1,0 +1,26 @@
+<header>
+    <span class="clearfix">☃</span><span class="header">SeenIt</span>
+    {{#if isAuth}}
+        <div id="profile"><span>{{username}}</span>|<a href="#/logout">logout</a></div>
+    {{/if}}
+</header>
+
+<header class="clearfix" id="profile">
+            <div id="cashier">
+                <span>Cashier: </span>
+                <a href="#">Pesho</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#">Overview</a>
+                    </li>
+                    <li>
+                        <a href="#">Archive</a>
+                    </li>
+                    <li>
+                        <a href="#" class="logout">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
