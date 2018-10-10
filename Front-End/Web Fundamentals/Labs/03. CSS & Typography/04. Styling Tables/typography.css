@@ -1,0 +1,23 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgb(163, 163, 163);
+}
+
+thead tr {
+    background: rgb(163, 163, 163);
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+
+table tr:hover td {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
