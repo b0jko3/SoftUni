@@ -1,0 +1,24 @@
+.mq-width > span:last-child,
+.mq-height > span:last-child,
+.mq-aspect-ratio > span:last-child {
+    display: none;
+    color: rgb(0, 175, 0);
+}
+
+@media (min-width: 600px) {
+    .mq-width > span:last-child {
+        display: inline-block;
+    }
+}
+
+@media (min-height: 600px) {
+    .mq-height > span:last-child {
+        display: inline-block;
+    }
+}
+
+@media (min-aspect-ratio: 8/5) {
+    .mq-aspect-ratio > span:last-child {
+        display: inline-block;
+    }
+}
