@@ -8,8 +8,23 @@ h1 {
     font-family: "Georgia", sans-serif;
     font-size: 1em;
     line-height: 1.2;
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
-nav > *{
+.siteTitle, header {
     display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background: rgb(255, 255, 255);
+    
+}
+
+header button {
+    color: rgb(0, 128, 0);
 }
