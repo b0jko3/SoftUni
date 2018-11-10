@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+html{
+    background-color: rgb(228, 228, 228);
+}
+
+body{
+    border-radius: 0.5em;
+    font-family: 'Open Sans';
+    display: flex;
+    padding: 10em 15em;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.left-side{
+    background-image: url(images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-grow: 1;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 3px 20px 0 rgb(190, 190, 190);
+}
+
+h2{
+    margin-top: 30%;
+    font-weight: 100
+}
+
+h5{
+    text-align: left;
+}
+
+form{
+    background-color: white;
+    padding: 2em;
+    height: auto;
+    flex-grow: 1;
+    color: lightgray;
+    box-shadow: 0 3px 20px 0 rgb(192, 192, 192);
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 2em;
+    padding: 1em 2em;
+}
+
+.icons{
+    margin-top: 30%;
+}
+
+i{
+    padding: 0.1em;
+}

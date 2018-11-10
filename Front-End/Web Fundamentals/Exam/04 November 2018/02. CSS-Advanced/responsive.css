@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header h1{
+        font-size: 1.5em;
+    }
+
+    main .left-to-right article{
+        border-radius: 20%;
+        padding: 2em;
+        width: 400px;
+        height: 400px;
+    }
+
+    .left-to-right:first-child{
+        height: 33em;
+        padding: 3.8em;
+    }
+
+    main > section:nth-child(2),
+    main > section:nth-child(4){
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    section form label input, section form textarea{
+        width: auto;
+    }
+
+    main > section:nth-child(4) > article:nth-child(1){
+        flex-grow: 1;
+    }
+
+    article > button {
+        display: none;
+    }
+}

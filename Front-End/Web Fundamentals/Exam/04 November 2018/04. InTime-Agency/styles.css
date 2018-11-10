@@ -1,0 +1,137 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+body{
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+
+button{
+    border: 0px;
+    background-color: rgb(100, 179, 206);
+    border-radius: 2em;
+    color: white;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+}
+
+header{
+    display: flex;
+    margin: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > span{
+    font-size: 1.4em;
+}
+
+header > span > span:nth-child(2){
+    color: rgb(100, 179, 206);
+}
+
+header > nav{
+    justify-content: space-around;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+
+header > nav > a:hover{
+    border-bottom: 2px solid rgb(100, 179, 206);
+}
+
+.slide2{
+    display: flex;
+    background-image: url('images/slide2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 10em;
+    justify-content: flex-start;
+}
+
+.slide2 > div{
+    padding: 1em;
+    flex-shrink: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.welcome{
+    text-align: center;
+    padding: 0 10em 1.5em 0;
+}
+
+.welcome > h2{
+    font-size: 2em;
+    display: inline-block;
+    border-bottom: 2px solid rgb(100, 179, 206);
+}
+
+.welcome > button{
+    background-color: black;
+}
+
+main{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+main > h2{
+    font-size: 2em;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+
+main > div{
+    display: flex;
+    padding: 0 15em;
+}
+
+main > div > div{
+    margin: 0 1em 1em 1em;
+    background-color: white;
+    justify-content: space-between;
+}
+
+main > div > div > div{
+    margin: 1em;
+}
+
+main > div > div > div > button{
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+main > div > div > img{
+    height: 180px;
+}
+
+footer{
+    color: white;
+    background-color: black
+}
+
+footer > section:nth-child(1){
+    text-align: center;
+    padding: 2em;
+}
+
+footer > section:nth-child(2){
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+footer > div{
+    text-align: center;
+}
